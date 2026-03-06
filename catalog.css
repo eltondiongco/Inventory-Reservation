@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* HEADER */
+.top-header {
+    background: #f4f4f4;
+    padding: 15px;
+    text-align: center;
+    border-bottom: 2px solid #ccc;
+}
+
+.top-header span {
+    color: #d35400;
+}
+
+/* LAYOUT */
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+/* SIDEBAR */
+.sidebar {
+    width: 220px;
+    background: #f8f8f8;
+    border-right: 1px solid #ccc;
+    padding: 20px;
+}
+
+.sidebar ul {
+    list-style: none;
+}
+
+.sidebar ul li {
+    padding: 10px;
+    margin-bottom: 8px;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.sidebar ul li:hover {
+    background: #e5e5e5;
+}
+
+.sidebar .active {
+    border: 2px solid #d35400;
+}
+
+.support {
+    margin-top: 30px;
+    font-size: 13px;
+}
+
+/* CONTENT */
+.content {
+    flex: 1;
+    padding: 30px;
+    background: #fafafa;
+}
+
+.page-title {
+    margin-bottom: 20px;
+}
+
+/* INVENTORY GRID */
+.inventory-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+/* CARD */
+.inventory-card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid #ccc;
+}
+
+.inventory-card h3 {
+    margin-bottom: 15px;
+}
+
+/* COLORS */
+.orange {
+    border-color: #e67e22;
+}
+
+.gray {
+    border-color: #555;
+}
+
+.blue {
+    border-color: #3498db;
+}
+
+/* ITEMS */
+.item {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.item img {
+    width: 100%;
+    border-radius: 6px;
+    background: #eee;
+}
+
+.item p {
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+/* HARDWARE GRID */
+.hardware-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.hardware-item {
+    text-align: center;
+}
+
+.hardware-item img {
+    width: 100%;
+    background: #eee;
+    border-radius: 6px;
+}
+
+.hardware-item p {
+    font-size: 13px;
+    margin-top: 5px;
+}
