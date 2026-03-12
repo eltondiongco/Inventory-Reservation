@@ -16,3 +16,27 @@ function validateLogin() {
         return false;
     }
 }
+
+function openRegister(){
+    document.getElementById("registerPopup").style.display = "block";
+}
+
+function closeRegister(){
+    document.getElementById("registerPopup").style.display = "none";
+}
+
+function registerUser(){
+
+    let name = document.getElementById("regName").value;
+    let email = document.getElementById("regEmail").value;
+    let password = document.getElementById("regPassword").value;
+
+    if(name === "" || email === "" || password === ""){
+        alert("Please fill all fields");
+        return;
+    }
+
+    alert("Registration Successful!");
+
+    closeRegister();
+}

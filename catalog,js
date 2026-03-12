@@ -1,0 +1,12 @@
+const dropdown = document.querySelector(".dropdown-btn");
+const submenu = document.querySelector(".submenu");
+
+dropdown.addEventListener("click", () => {
+
+    if(submenu.style.display === "block"){
+        submenu.style.display = "none";
+    }else{
+        submenu.style.display = "block";
+    }
+
+});

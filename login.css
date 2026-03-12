@@ -100,3 +100,49 @@ body {
     color: #333;
     text-decoration: none;
 }
+
+.sidebar a {
+    text-decoration: none;
+}
+
+/* REGISTER POPUP */
+
+.register-popup{
+    display:none;
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background:rgba(0,0,0,0.5);
+}
+
+.register-box{
+    background:white;
+    width:300px;
+    padding:25px;
+    margin:120px auto;
+    border-radius:8px;
+    text-align:center;
+}
+
+.register-box input{
+    width:100%;
+    padding:10px;
+    margin:8px 0;
+}
+
+.register-box button{
+    width:100%;
+    padding:10px;
+    margin-top:8px;
+}
+.register-popup{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+}
